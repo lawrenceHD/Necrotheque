@@ -1,0 +1,95 @@
+2024-03-02T14:24:21+00:00 ERR (3): Zend_Mail_Protocol_Exception: 5.7.0 Authentication Required. For more information, go to
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError mc22-20020a170906eb5600b00a44879da103sm1714107ejb.224 - gsmtp
+ in C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Abstract.php:431
+Stack trace:
+#0 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Smtp.php(261): Zend_Mail_Protocol_Abstract->_expect(Array, 300)
+#1 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Smtp.php(207): Zend_Mail_Protocol_Smtp->mail('haroldtetchouan...')
+#2 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 C:\wamp64\www\necrotheque\application\libraries\Omeka\Mail\TransportWrapper.php(41): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail.php(1201): Omeka_Mail_TransportWrapper->send(Object(Zend_Mail))
+#5 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(120): Zend_Mail->send()
+#6 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(95): UsersController->_sendResetPasswordEmail('haroldtetchouan...', 'f08c72e1d26bcbe...')
+#7 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Action.php(516): UsersController->forgotPasswordAction()
+#8 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('forgotPasswordA...')
+#9 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 C:\wamp64\www\necrotheque\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(106): Zend_Controller_Front->dispatch()
+#11 C:\wamp64\www\necrotheque\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#12 C:\wamp64\www\necrotheque\application\libraries\Omeka\Application.php(73): Zend_Application->run()
+#13 C:\wamp64\www\necrotheque\admin\index.php(28): Omeka_Application->run()
+#14 {main}
+2024-03-02T14:31:02+00:00 ERR (3): Zend_Mail_Protocol_Exception: 5.7.0 Authentication Required. For more information, go to
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError s16-20020aa7d790000000b0056660245e83sm2621567edq.77 - gsmtp
+ in C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Abstract.php:431
+Stack trace:
+#0 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Smtp.php(261): Zend_Mail_Protocol_Abstract->_expect(Array, 300)
+#1 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Smtp.php(207): Zend_Mail_Protocol_Smtp->mail('haroldtetchouan...')
+#2 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 C:\wamp64\www\necrotheque\application\libraries\Omeka\Mail\TransportWrapper.php(41): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail.php(1201): Omeka_Mail_TransportWrapper->send(Object(Zend_Mail))
+#5 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(120): Zend_Mail->send()
+#6 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(95): UsersController->_sendResetPasswordEmail('haroldtetchouan...', 'a0540a12fd23677...')
+#7 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Action.php(516): UsersController->forgotPasswordAction()
+#8 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('forgotPasswordA...')
+#9 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 C:\wamp64\www\necrotheque\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(106): Zend_Controller_Front->dispatch()
+#11 C:\wamp64\www\necrotheque\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#12 C:\wamp64\www\necrotheque\application\libraries\Omeka\Application.php(73): Zend_Application->run()
+#13 C:\wamp64\www\necrotheque\admin\index.php(28): Omeka_Application->run()
+#14 {main}
+2024-03-02T14:32:38+00:00 ERR (3): Zend_Mail_Protocol_Exception: 5.7.0 Authentication Required. For more information, go to
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError lf7-20020a170907174700b00a44d66a16efsm662095ejc.2 - gsmtp
+ in C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Abstract.php:431
+Stack trace:
+#0 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Smtp.php(261): Zend_Mail_Protocol_Abstract->_expect(Array, 300)
+#1 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Smtp.php(207): Zend_Mail_Protocol_Smtp->mail('haroldtetchouan...')
+#2 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 C:\wamp64\www\necrotheque\application\libraries\Omeka\Mail\TransportWrapper.php(41): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail.php(1201): Omeka_Mail_TransportWrapper->send(Object(Zend_Mail))
+#5 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(120): Zend_Mail->send()
+#6 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(95): UsersController->_sendResetPasswordEmail('haroldtetchouan...', '73c3e5c20830391...')
+#7 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Action.php(516): UsersController->forgotPasswordAction()
+#8 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('forgotPasswordA...')
+#9 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 C:\wamp64\www\necrotheque\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(106): Zend_Controller_Front->dispatch()
+#11 C:\wamp64\www\necrotheque\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#12 C:\wamp64\www\necrotheque\application\libraries\Omeka\Application.php(73): Zend_Application->run()
+#13 C:\wamp64\www\necrotheque\admin\index.php(28): Omeka_Application->run()
+#14 {main}
+2024-03-02T14:52:22+00:00 ERR (3): Zend_Mail_Protocol_Exception: 5.7.0 Authentication Required. For more information, go to
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError cm29-20020a170906f59d00b00a3ce60b003asm2835280ejd.176 - gsmtp
+ in C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Abstract.php:431
+Stack trace:
+#0 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Smtp.php(261): Zend_Mail_Protocol_Abstract->_expect(Array, 300)
+#1 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Smtp.php(207): Zend_Mail_Protocol_Smtp->mail('haroldtetchouan...')
+#2 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 C:\wamp64\www\necrotheque\application\libraries\Omeka\Mail\TransportWrapper.php(41): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail.php(1201): Omeka_Mail_TransportWrapper->send(Object(Zend_Mail))
+#5 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(120): Zend_Mail->send()
+#6 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(95): UsersController->_sendResetPasswordEmail('haroldtetchouan...', '8c5cbbb1a499071...')
+#7 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Action.php(516): UsersController->forgotPasswordAction()
+#8 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('forgotPasswordA...')
+#9 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 C:\wamp64\www\necrotheque\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(106): Zend_Controller_Front->dispatch()
+#11 C:\wamp64\www\necrotheque\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#12 C:\wamp64\www\necrotheque\application\libraries\Omeka\Application.php(73): Zend_Application->run()
+#13 C:\wamp64\www\necrotheque\admin\index.php(28): Omeka_Application->run()
+#14 {main}
+2024-03-02T15:09:15+00:00 ERR (3): Zend_Mail_Protocol_Exception: 5.7.0 Authentication Required. For more information, go to
+ 5.7.0  https://support.google.com/mail/?p=WantAuthError lm7-20020a170906980700b00a449fdfe27bsm1444256ejb.170 - gsmtp
+ in C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Abstract.php:431
+Stack trace:
+#0 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Protocol\Smtp.php(261): Zend_Mail_Protocol_Abstract->_expect(Array, 300)
+#1 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Smtp.php(207): Zend_Mail_Protocol_Smtp->mail('haroldtetchouan...')
+#2 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 C:\wamp64\www\necrotheque\application\libraries\Omeka\Mail\TransportWrapper.php(41): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 C:\wamp64\www\necrotheque\application\libraries\Zend\Mail.php(1201): Omeka_Mail_TransportWrapper->send(Object(Zend_Mail))
+#5 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(120): Zend_Mail->send()
+#6 C:\wamp64\www\necrotheque\application\controllers\UsersController.php(95): UsersController->_sendResetPasswordEmail('haroldtetchouan...', '78c0176f699385d...')
+#7 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Action.php(516): UsersController->forgotPasswordAction()
+#8 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('forgotPasswordA...')
+#9 C:\wamp64\www\necrotheque\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#10 C:\wamp64\www\necrotheque\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(106): Zend_Controller_Front->dispatch()
+#11 C:\wamp64\www\necrotheque\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#12 C:\wamp64\www\necrotheque\application\libraries\Omeka\Application.php(73): Zend_Application->run()
+#13 C:\wamp64\www\necrotheque\index.php(23): Omeka_Application->run()
+#14 {main}
